@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:ignore="MissingConstraints">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/white"
+        android:padding="4dp">
+        <TextView
+            android:id="@+id/nama_mobil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="8dp"
+            android:layout_toStartOf="@+id/gambar_mobil"
+            android:lines="1"
+            android:padding="4dp"
+            android:text="Nama Mobil"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/harga_mobil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nama_mobil"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:layout_toStartOf="@+id/gambar_mobil"
+            android:lines="1"
+            android:padding="4dp"
+            android:text="IDR 200.000"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+        <ImageView
+            android:id="@+id/gambar_mobil"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            tools:background="#fefefe"
+            android:src="@drawable/avanza"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:padding="4dp">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#0000FF"
+            android:text="Edit"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/btn_edit"
+            android:layout_marginStart="6dp"
+            app:backgroundTint="#FF0000"
+            android:text="Hapus" />
+        <TextView
+            android:id="@+id/nomor_mobil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:lines="1"
+            android:padding="4dp"
+            android:text="G 4415 FF"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+</LinearLayout>

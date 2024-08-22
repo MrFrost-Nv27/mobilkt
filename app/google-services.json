@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1048419540364",
+    "project_id": "mobilkt-7b8ea",
+    "storage_bucket": "mobilkt-7b8ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048419540364:android:e7af16617d5d1fc46e4aa9",
+        "android_client_info": {
+          "package_name": "com.example.mobilkt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU_GkweF7HU4wkEG364gplzZXwSjDZFsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
