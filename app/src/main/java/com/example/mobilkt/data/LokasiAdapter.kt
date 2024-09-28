@@ -2,6 +2,8 @@ package com.example.mobilkt.data
 
 import android.app.AlertDialog
 import android.content.Context
+import android.content.Intent
+import android.net.Uri
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -45,6 +47,11 @@ class LokasiAdapter(
             binding.apply {
                 left.text = currentItem.displayName
                 right.text = currentItem.dari
+
+                wrapper.setOnClickListener{
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("geo:${currentItem.latitude},${currentItem.longitude}?q=${currentItem.latitude},${currentItem.longitude}"))
+                    context.startActivity(intent)
+                }
             }
         }
     }

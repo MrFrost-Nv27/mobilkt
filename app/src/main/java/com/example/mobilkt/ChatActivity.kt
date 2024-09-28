@@ -45,7 +45,7 @@ class ChatActivity : AppCompatActivity() {
                 if (snapshot.exists()) {
                     for (dataSnapshot in snapshot.children) {
                         val data = dataSnapshot.getValue(Pemesanan::class.java)
-                        if (data?.supirId == userPref.getLoggedInUser().userId && data?.status!! > 1) pemesananList.add(data!!)
+                        if (data?.supirId == userPref.getLoggedInUser().userId && data?.status!! == 1) pemesananList.add(data!!)
                     }
                 }
                 val dataAdapter = ChatAdapter(this@ChatActivity, pemesananList)
