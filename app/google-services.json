@@ -1,13 +1,14 @@
 {
   "project_info": {
-    "project_number": "1048419540364",
-    "project_id": "mobilkt-7b8ea",
-    "storage_bucket": "mobilkt-7b8ea.appspot.com"
+    "project_number": "450907787244",
+    "firebase_url": "https://mobilkt-11ca7-default-rtdb.firebaseio.com",
+    "project_id": "mobilkt-11ca7",
+    "storage_bucket": "mobilkt-11ca7.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1048419540364:android:e7af16617d5d1fc46e4aa9",
+        "mobilesdk_app_id": "1:450907787244:android:515c8473186cde7c723ac9",
         "android_client_info": {
           "package_name": "com.example.mobilkt"
         }
@@ -15,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAU_GkweF7HU4wkEG364gplzZXwSjDZFsI"
+          "current_key": "AIzaSyDp5vLNqVUp5m-QEIlxDq7LoFq3UYvXA4s"
         }
       ],
       "services": {
