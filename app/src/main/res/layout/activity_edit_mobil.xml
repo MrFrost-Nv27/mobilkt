@@ -12,11 +12,12 @@
         android:orientation="vertical"
         tools:ignore="MissingConstraints">
 
-    <ImageView
-        android:id="@+id/imageView21"
-        android:layout_width="match_parent"
-        android:layout_height="83dp"
-        app:srcCompat="@drawable/bagian16" />
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            app:srcCompat="@drawable/bagian16" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

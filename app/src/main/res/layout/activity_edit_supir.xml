@@ -11,19 +11,22 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         tools:ignore="MissingConstraints">
+
         <RelativeLayout
-            android:background="@color/white"
             android:layout_width="match_parent"
-            android:padding="12dp"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="12dp">
+
             <TextView
-                android:textSize="26sp"
-                android:layout_centerHorizontal="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
                 android:text="DATA SUPIR"
+                android:textSize="26sp"
                 android:textStyle="bold" />
         </RelativeLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -42,13 +45,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
                     android:layout_weight="1"/>
+
                 <EditText
                     android:id="@+id/edit_nama_supir"
                     android:layout_width="100pt"
                     android:layout_height="wrap_content"
-                    android:inputType="text"
                     android:hint="Masukkan Nama Supir"
-                    />
+                    android:inputType="text"
+                    android:minHeight="48dp" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -63,13 +67,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
                     android:layout_weight="1"/>
+
                 <EditText
                     android:id="@+id/edit_email_supir"
                     android:layout_width="100pt"
                     android:layout_height="wrap_content"
-                    android:inputType="textEmailAddress"
                     android:hint="Masukkan Email Supir"
-                    />
+                    android:inputType="textEmailAddress"
+                    android:minHeight="48dp" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -84,13 +89,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
                     android:layout_weight="1"/>
+
                 <EditText
                     android:id="@+id/edit_hp_supir"
                     android:layout_width="100pt"
                     android:layout_height="wrap_content"
-                    android:inputType="phone"
                     android:hint="Masukkan Nomor HP Supir"
-                    />
+                    android:inputType="phone"
+                    android:minHeight="48dp" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -105,13 +111,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
                     android:layout_weight="1"/>
+
                 <EditText
                     android:id="@+id/edit_password_supir"
                     android:layout_width="100pt"
                     android:layout_height="wrap_content"
-                    android:inputType="textPassword"
                     android:hint="Masukkan Password"
-                    />
+                    android:inputType="textPassword"
+                    android:minHeight="48dp" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -126,13 +133,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
                     android:layout_weight="1"/>
+
                 <EditText
                     android:id="@+id/edit_password_confirm_supir"
                     android:layout_width="100pt"
                     android:layout_height="wrap_content"
-                    android:inputType="textPassword"
                     android:hint="Masukkan Konfirmasi Password"
-                    />
+                    android:inputType="textPassword"
+                    android:minHeight="48dp" />
             </LinearLayout>
 
             <RelativeLayout
