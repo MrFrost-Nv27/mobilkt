@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.mobilkt.EditJalurActivity
 import com.example.mobilkt.EditKotaActivity
 import com.example.mobilkt.EditMobilActivity
+import com.example.mobilkt.KonfirmasiActivity
 import com.example.mobilkt.PemesananActivity
 import com.example.mobilkt.R
 import com.example.mobilkt.data.model.Jalur
@@ -56,6 +57,11 @@ class PemesananAdapter(
                 if (currentItem.status == 0) {
                     status.text = "Belum Dibayar"
                     status.setTextColor(Color.parseColor("#FF0000"))
+                    wrapper.setOnClickListener {
+                        val intent = android.content.Intent(context, KonfirmasiActivity::class.java)
+                        intent.putExtra("dataId", currentItem.id)
+                        context.startActivity(intent)
+                    }
                 }
                 if (currentItem.status == 1) {
                     status.text = "Sudah Dibayar"
